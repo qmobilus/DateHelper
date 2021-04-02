@@ -10,7 +10,7 @@
 Pod::Spec.new do |s|
   s.name             = "AFDateHelper"
   s.version          = "3.5.3"
-  s.summary          = "Date Extension for Swift 3.0"
+  s.summary          = "Date Extension for Swift 5.0"
   s.description      = <<-DESC
                        Extension for NSDate in Swift for creating, modifying or comparing dates.
                        DESC
@@ -21,12 +21,12 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/melvitax/DateHelper.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/melvitax'
 
-  s.platforms     = { :ios => '8.0', :tvos => '9.0',  :watchos => '2.0' }
+  s.platforms     = { :ios => '11.0', :tvos => '9.0',  :watchos => '2.0' }
   s.ios.deployment_target = "8.0"
   s.watchos.deployment_target = "2.0"
   s.tvos.deployment_target = "9.0"
 
-  s.xcconfig = { 'SWIFT_VERSION' => '3.0' }
+  s.xcconfig = { 'SWIFT_VERSION' => '5.0' }
 
 s.source_files = "Sources/**/*.{h,swift}"
 
